@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #345;
+}
+#connection_status {
+  font-size: 140%;
+  text-shadow: 0px 0px 5px white;
+}
+button {
+  padding: 1em;
+  font-size: 120%;
+  border-radius: 10px;
+}
+
+.btn-allow {
+  background-color: #09f;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-connected {
+  background-color: #4f4;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+#fundWithdrawDiv {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 90%;
+  margin: 2em;
+  padding: 3em;
+}
+#fundDiv {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+}
+#fund-input {
+  width: 20%;
+  height: 20%;
+  margin-left: 1em;
+}
+#balanceDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#get-balance-btn {
+  min-width: fit-content;
+}
+#balance-text {
+  margin-left: 1em;
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+  min-width: fit-content;
+}
+#withdrawDiv {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+}
